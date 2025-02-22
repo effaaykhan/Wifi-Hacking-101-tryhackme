@@ -1,0 +1,19 @@
+Q1. What flag do we use to specify a BSSID to attack?
+Ans: -b
+
+Q2. What flag do we use to specify a wordlist?
+Ans: -w
+
+Q3. How do we create a HCCAPX in order to use hashcat to crack the password?
+Ans: -j
+
+Q4. Using the rockyou wordlist, crack the password in the attached capture. What's the password?
+[HINT]: Run the following command: 
+    ''' sudo aircrack-ng test taskfilename.cap      (this command will convert the .cap file to the .hccapx format so that we can crack the password using aricrack-ng or hashcat) and then run the following command to get the passowrd:
+    ''' sudo aircrack-ng -b <bssid> -w /usr/share/wordlist/rockyou.txt test  '''
+
+Ans: greeneggsandham
+
+
+Q5. Where is password cracking likely to be fastest, CPU or GPU?
+Ans: GPU
