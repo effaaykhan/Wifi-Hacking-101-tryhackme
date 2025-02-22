@@ -1,0 +1,20 @@
+Q1. How do you put the interface “wlan0” into monitor mode with Aircrack tools? (Full command)
+Ans: sudo airmon-ng wlan0   
+
+Q2. What is the new interface name likely to be after you enable monitor mode?
+Ans: wlan0mon     (but sometimes it may be wlan0)
+
+Q3. What do you do if other processes are currently trying to use that network adapter? 
+Ans: airmon-ng check kill    
+
+Q4. What tool from the aircrack-ng suite is used to create a capture?
+Ans: airodump-ng
+
+Q5. What flag do you use to set the BSSID to monitor?
+Ans: --bssid
+
+Q6. And to set the channel?
+Ans: --channel
+
+Q7. And how do you tell it to capture packets to a file?
+Ans: -w
